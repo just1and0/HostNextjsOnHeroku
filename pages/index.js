@@ -4,16 +4,11 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div>
-    <Head>
-      <title>Home</title>
-    </Head>
-
-    <Nav />
-
+     
     <div className='hero'>
-      <h1 className='title'>Welcome to Next.js!</h1>
+      <h1 className='title'>Host Next.js on Heroku!</h1>
       <p className='description'>
-        To get started, edit <code>pages/index.js</code> and save to reload.
+       View source code on <a href="https://github.com/just1and0/HostNextjsOnHeroku">GitHub</a> and don't forget to star
       </p>
 
       <div className='row'>
